@@ -1,9 +1,32 @@
-var d = new Date();
-alert(d)
-//alert(d.getDay(0));
-//alert(d.getDate());
-//alert(d.getMonth()+1);
-//alert(d.getUTCFullYear())
+ffunction soma(n1, n2){
+return n1 + n2;
+}
+alert(soma(5,10));
+
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(setReplace("Vai Íbis !", "Íbis", "Sport"));
+
+var validar;
+function validarIdade(idade){
+    validar;
+if (idade >=18){
+    validar =  true;
+}else{
+(validar = false);
+} 
+return validar;
+}
+var idade =  prompt("Qual é a sua idade?");
+validarIdade(idade);
+console.log(validar);
+
+/*var d = new Date();
+alert(falert(d.getDay(0));
+alert(d.getDate());
+alert(d.getMonth()+1);
+alert(d.getUTCFullYear())*/
 
 /*var count = 0;
 while (count <= 5){
