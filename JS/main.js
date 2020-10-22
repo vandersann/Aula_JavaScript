@@ -1,4 +1,19 @@
-ffunction soma(n1, n2){
+function clicou(){
+    document.getElementById("Agradecer").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("Agradecer"));
+   //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    //window.open("https://github.com/vandersann");
+    window.location.href = "https://github.com/vandersann"
+}
+
+function trocar(){
+    alert("Trocar texto.");
+}
+
+/*function soma(n1, n2){
 return n1 + n2;
 }
 alert(soma(5,10));
@@ -20,7 +35,7 @@ return validar;
 }
 var idade =  prompt("Qual é a sua idade?");
 validarIdade(idade);
-console.log(validar);
+console.log(validar);*/
 
 /*var d = new Date();
 alert(falert(d.getDay(0));
