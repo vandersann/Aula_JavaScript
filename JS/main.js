@@ -1,7 +1,34 @@
-var fruta = {nome:"maçã", cor:"vermelha"};
-console.log(fruta.nome);
-alert(fruta.cor);
+var d = new Date();
+alert(d)
+//alert(d.getDay(0));
+//alert(d.getDate());
+//alert(d.getMonth()+1);
+//alert(d.getUTCFullYear())
 
+/*var count = 0;
+while (count <= 5){
+    console.log(count);
+    alert(count)
+    //count = count + 1;
+    count++;
+}*/
+/*var count;
+for(count=0; count <= 5; count++){
+alert(count)
+};*/
+
+
+
+/*var idade = prompt("Qual é a sua idade? ");
+if (idade >= 18){
+    alert("Maior de idade");
+}else{
+    alert("Menor de idade");
+}*/
+
+//var fruta = {nome:"maçã", cor:"vermelha"};
+//console.log(fruta.nome);
+//alert(fruta.cor);
 
 // lista = ["Banana","Laranja","Morango"];
 //lista.push = ("Romã");
