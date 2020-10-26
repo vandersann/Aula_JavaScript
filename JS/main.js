@@ -4,13 +4,28 @@ function clicou(){
    //alert("Obrigado por clicar");
 }
 
-function redirecionar(){
+/*function redirecionar(){
     //window.open("https://github.com/vandersann");
     window.location.href = "https://github.com/vandersann"
+}*/
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse. ";
+    elemento.innerHTML = "Obrigado por passar o Mouse";
+    //alert("Trocar texto.");
 }
 
-function trocar(){
-    alert("Trocar texto.");
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui. ";
+    elemento.innerHTML = "Passe o Mouse aqui";
+}
+
+function load(){
+    alert("Página Carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
 }
 
 /*function soma(n1, n2){

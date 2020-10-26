@@ -4,13 +4,20 @@
     <title>Experimento</title>
     <meta charset="uft-8">
 <script type="text/javascript" src="JS/main.js"></script>
-
 </head>
-<body>
-    
-    <button type="button" onclick="clicou()">"Clique aqui"</button>
-    <p id="Agradecer" onclick="redirecionar()"> </p>
-    <p id="Trocar" onmouseover="redirecionar()">"Passe o mouse aqui."</p>
 
-</body>
+     <body onload="load()">
+     <button type="button" onclick="clicou()">"Clique aqui"</button>
+     <p id="Agradecer" onclick="redirecionar()"> </p>
+     <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse aqui</p>
+     <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse aqui</p>
+     <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse aqui</p>
+
+    <select onclick="funcaoChange(this)">
+    <option value="1">Vander</option>
+    <option value="2">Sandino</option>
+    <option value="3">Oliveira</option>
+     </select>
+
+      </body>
 </html>
